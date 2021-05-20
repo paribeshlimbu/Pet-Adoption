@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend",
+    "\\backend\\locales",
+    "\\backend\\src",
+    "\\backend\\src\\services",
+    "\\backend\\src\\services\\chat",
+    "\\frontend",
+    "\\frontend\\src",
+    "\\frontend\\src\\assets",
+    "\\frontend\\src\\assets\\locales"
+  ],
+  "SelectedNode": "\\frontend\\src\\assets\\locales\\es\\translation.json",
+  "PreviewInSolutionExplorer": false
+}

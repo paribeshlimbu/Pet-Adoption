@@ -1,0 +1,48 @@
+/* Section */
+.Section__WrapperChats {
+    max-height: 100%;
+    padding: 0 !important;
+}
+
+.Section__WrapperChats .ChatPanel {
+    max-height: 100vh;
+}
+
+.Section__WrapperChats {
+    max-height: 100%;
+}
+
+/* Media queries */
+@media only screen and (min-width : 800px) {
+    .Section__WrapperChats { padding: 1rem 0; }
+}
+
+/* Reconnect */
+.Chat__Reconnect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 50;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Chat__Reconnect .Home__Subtitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    max-width: 90%;
+}
+
+.Chat__Reconnect .Chat__ReconnectButton {
+    border-radius: 15px;
+    background-color: var(--main-color);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+.Chat__Reconnect .Chat__ReconnectButton:hover { background-color: var(--main-color-dark); }
